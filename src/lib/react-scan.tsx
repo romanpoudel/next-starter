@@ -1,7 +1,7 @@
-'use client';
-import { useEffect } from 'react';
+"use client";
+import { useEffect } from "react";
 // react-scan must be imported before react
-import { scan } from 'react-scan';
+import { scan } from "react-scan";
 
 export function ReactScan() {
   useEffect(() => {
