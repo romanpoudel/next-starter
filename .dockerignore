@@ -1,0 +1,57 @@
+# Dependencies (already in your .gitignore, but good to be explicit)
+node_modules/
+/.pnp
+.pnp.*
+
+# Next.js build outputs
+.next/
+out/
+build/
+
+# Development and debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript build info
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# IDE files (you already have .vscode and .idea)
+.vscode/
+.idea/
+.idea*
+
+# OS files
+.DS_Store
+*.pem
+
+# Git
+.git/
+.gitignore
+
+# Docker files (no need to copy Docker files into the image)
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+build-docker/
+docker
+
+# Development tools
+Makefile
+README.md
+
+# Certificates (you have a certificates/ folder)
+certificates/
+
+# Coverage and testing
+coverage/
+.nyc_output/
+
+# Vercel
+.vercel/
+
+# Environment files (should be set at runtime, not build time)
+.env*
+!.env.example
