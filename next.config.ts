@@ -8,6 +8,15 @@ const nextConfig: NextConfig = {
   },
   reactCompiler: true,
   cacheComponents: true,
+  typedRoutes: true,
+  logging: {
+    fetches: {
+      fullUrl: true,
+    },
+  },
+  experimental: {
+    typedEnv: true,
+  },
 };
 
 export default nextConfig;
