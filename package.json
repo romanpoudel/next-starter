@@ -6,7 +6,7 @@
     "prepare": "lefthook install",
     "dev": "next dev --port 5000",
     "build": "next build",
-    "start": "next start",
+    "start": "PORT=5000 node .next/standalone/next-js/server.js",
     "check": "pnpx ultracite@latest check",
     "fix": "pnpx ultracite@latest fix"
   },
